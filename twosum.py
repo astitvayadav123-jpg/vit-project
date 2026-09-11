@@ -23,10 +23,9 @@ Output: [0,1]
 
 Constraints:'''
 nums=[]
-n=int(input("ENTER THE LENGTH OF ARRAY:"))
-for i in range (n):
-   value=int(input("enter your list:"))
-   nums.append(value)
+#we have to take input from user of nums in format  example=[1,2,3,4,5,] , help 
+
+
 target=int(input("ENTER THE TARGET:"))
 for i in range(len(nums)):
     for j in range(i+1,len(nums)):
