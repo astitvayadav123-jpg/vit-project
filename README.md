@@ -75,7 +75,7 @@ I5-The quiz stops when all questions are completed or when the user reaches 3 in
 I6-The final result is displayed.
 
 
-![alt text](<Image1.png>)
-![alt text](<Image2.png>)
-![alt text](<Image3.png>)
-![alt text](<Image4.png>)
+![alt text](<image1.png>)
+![alt text](<image2.png>)
+![alt text](<image3.png>)
+![alt text](<image4.png>)
