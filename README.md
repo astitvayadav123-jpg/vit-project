@@ -75,7 +75,7 @@ I5-The quiz stops when all questions are completed or when the user reaches 3 in
 I6-The final result is displayed.
 
 
-![alt text](<Screenshot 2026-09-28 215626.png>)
-![alt text](<Screenshot 2026-09-28 215329.png>)
-![alt text](<Screenshot 2026-09-28 215355.png>)
-![alt text](<Screenshot 2026-09-28 215503.png>)
+![alt text](<Image1.png>)
+![alt text](<Image2.png>)
+![alt text](<Image3.png>)
+![alt text](<Image4.png>)
