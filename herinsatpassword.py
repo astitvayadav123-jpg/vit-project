@@ -1,16 +1,16 @@
 print("""WELCOME TO MATHS QUIZ, THE AIM OF THE QUIZ IS TO PROVIDE GOOD PRACTICE OF 
 ADDITION,SUBTRACTION,MUTLIPLICATION,INTEGRATION AND DIFFERTION,YOU CAN CHOOSE 
 ANYONE TOPIC TO STUDY""")
-name=str(input("ENTER YOUR NAME:"))
+name=str(input("ENTER YOUR NAME:"))#taking input from user 
 
 print("CHOOSE YOUR TOPIC FOR QUIZ:")
 print("""1.CHOOSE 1 FOR ADDITION
-2.CHOOSE 2 FOR SUBTRACTION
+2.CHOOSE 2 FOR SUBTRACTION                  
 3.CHOOSE 3 FOR MUTLIPLICATION
 4.CHOOSE 4 FOR DIVISON
 5.CHOOSE 5 FOR DIIFERNTION
 6.CHOOSE 6 FOR INTEGRATION
-PRESS ENTER TO MAKE CHOICE""")
+PRESS ENTER TO MAKE CHOICE""")  #selecting topic 
 choice=int(input("ENTER YOUR CHOICE:"))
 import random
 additions = [
@@ -194,7 +194,7 @@ additions = [
      c. 17
 
      d. 18""","c"]
-     ]
+     ] #question bank of additon 
 subtraction=[
   ["""Q) 10-5=
 
@@ -378,7 +378,7 @@ subtraction=[
   c.212
 
   d.456""","c"]
-]
+]#subtraction bank of additon 
 multiplication=[
   ["""Q) 5 x 5 =
 
@@ -565,7 +565,7 @@ multiplication=[
 
   d.130""","b"]
    
-]
+]#question bank of multiplication
 division = [
     ["""Q) Divide 10 by 2.
 
@@ -1176,7 +1176,7 @@ division = [
   c. 20
 
   d. 25""", "c"]
-]
+]#question bank of divison
 differntion=[
    ["""Q)  What is the derivative of y = x⁵?
 
@@ -1360,7 +1360,7 @@ b. x = 1 and x = 3
 c. x = 1 and x = 2
 
 d. x = 0 and x = 3""","a"]
-]
+]#question bank of differnation
 integration = [
 
     ["""Q) What is ∫ x⁵ dx?
@@ -1583,7 +1583,7 @@ c. 2/3
 d. 1/3
 """, "d"]
 
-]
+]#question bank of integration
 
  
 
@@ -1780,7 +1780,7 @@ else :
                      print("Correct answer:", ind[1])
                      print()
                      incorrect += 1
-
+#displaying result
 print("NAME:",name)
 print("QUIZ RESULT")
 print("Total questions attempted:", total_questions)
