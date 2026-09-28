@@ -1,1 +1,0 @@
-numbers=list(map(map,input))
